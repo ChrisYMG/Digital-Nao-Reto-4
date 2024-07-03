@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Principal</title>
+</head>
+<body>
+    <h1>Página Principal</h1>
+    <div id="botones">
+        <button onclick="navegar('./html/calculadora.html')">Calculadora de Ingresos y Gastos</button>
+        <button onclick="navegar('./html/scrollInfinito.html')">Scroll Infinito</button>
+        <button onclick="navegar('./html/breakout.html')">Juego de Breakout</button>
+        <button onclick="navegar('./html/cuentaRegresiva.html')">Cuenta Regresiva de Año Nuevo</button>
+        <button onclick="navegar('./html/audioATexto.html')">Traducción de Audio a Texto</button>
+    </div>
+    <script>
+        function navegar(pagina) {
+            window.location.href = pagina;
+        }
+    </script>
+</body>
+</html>
