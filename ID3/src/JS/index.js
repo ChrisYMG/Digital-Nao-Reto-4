@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function toggleEraser() {
-        erasing = !erasing; // Activa o desactiva el modo goma
+        erasing = !erasing;
         eraserButton.textContent = erasing ? 'Dibujar' : 'Goma';
     }
 
